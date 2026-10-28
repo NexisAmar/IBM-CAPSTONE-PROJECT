@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs (production - generated at runtime)
+logs/*.json
+
+# Models (generated at runtime)
+models/*.joblib
+models/*.json
+
+# Test artifacts
+.pytest_cache/
+
+# Generated data
+data/cs-train/*.csv
